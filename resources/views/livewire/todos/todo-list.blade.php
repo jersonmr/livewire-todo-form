@@ -37,6 +37,7 @@
     @endforelse
 
     <!-- Delete modal -->
+    <livewire:todos.confirm-todo-deletion :show="!!$todoDelete" />
 
     {{ $todos->links() }}
 </div>
