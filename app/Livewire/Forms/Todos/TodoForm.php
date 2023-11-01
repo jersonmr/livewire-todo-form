@@ -39,7 +39,7 @@ class TodoForm extends Form
             'description' => [
                 'required',
                 'min:3',
-                'max:100',
+                'max:200',
             ],
         ];
     }
